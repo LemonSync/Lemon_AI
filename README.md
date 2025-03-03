@@ -10,7 +10,9 @@
   🤖 AI Chat Berbasis Web dengan Sistem Sesi 🚀
 </h3>
 
-[Cek Websitenya](https://lemonsync.github.io/Lemon_AI/chat.html)
+<p align="center">
+  Cek Websitenya <a href="https://lemonsync.github.io/Lemon_AI/chat.html">Klik Saya</a>
+</p>
 
 <p align="center">
   <img src="https://img.shields.io/github/repo-size/LemonSync/Lemon_AI?style=for-the-badge" />
