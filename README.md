@@ -11,8 +11,8 @@
 </h3>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/LemonSync/LemonAI?style=for-the-badge" />
-  <img src="https://img.shields.io/github/languages/count/LemonSync/LemonAI?style=for-the-badge" />
+  <img src="https://img.shields.io/github/repo-size/LemonSync/Lemon_AI?style=for-the-badge" />
+  <img src="https://img.shields.io/github/languages/count/LemonSync/Lemon_AI?style=for-the-badge" />
 </p>
 
 ---
