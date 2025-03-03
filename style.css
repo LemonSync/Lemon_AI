@@ -1,0 +1,167 @@
+body {
+    background: linear-gradient(135deg, #044f48, #2a7561);
+    font-family: "Open Sans", sans-serif;
+}
+
+.Title {
+    color: seagreen;
+    text-shadow: 3px 3px 5px black;
+    -webkit-text-stroke: 1px black;
+    transition: all 1s;
+}
+
+.Title:hover {
+    text-shadow: 3px 3px 10px yellowgreen;
+    -webkit-text-stroke: 1px yellowgreen;
+}
+
+.chat {
+    width: 350px;
+    margin: 50px auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px yellowgreen, 
+                -3px -3px 5px mediumseagreen;
+    color: #fff;
+    border: 2px solid seagreen;
+    transition: all 2s;
+}
+
+.chat:hover {
+   border: 2px solid green;
+   box-shadow: 3px 3px 5px mediumseagreen, 
+                -3px -3px 5px yellowgreen;
+}
+
+input {
+   color: white;
+   background-color: rgba(105, 255, 255, 0.3);
+}
+
+input::placeholder {
+    color: white;
+    font-style: italic;
+    opacity: 1;
+}
+
+select {
+    background-color: mediumseagreen;
+    color: darkgreen;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.messages {
+    height: 350px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.message-container {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+    max-width: 80%;
+    position: relative;
+}
+
+.message-container.user {
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.message-container img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+}
+
+.message-container.user img {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.message {
+    padding: 12px 18px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    word-wrap: break-word;
+    max-width: 75%;
+    font-size: 1rem;
+    line-height: 1.4;
+    transition: all 0.1s;
+}
+
+.message:hover {
+    max-width: 80%;
+    border: 2px solid seagreen;
+    background: rgba(105, 255, 255, 0.2);
+}
+
+.message-personal {
+    max-width: 80%;
+    background: #248A52;
+    color: #fff;
+    transition: all 0.1s;
+}
+
+.message-personal:hover {
+    background: rgba(105, 255, 255, 0.2);
+    color: #fff;
+}
+
+.message-box {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+}
+
+button {
+    background: #248A52;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    margin-left: 10px;
+}
+/*
+     Saran Awak, Jangan Diubah Yang Dibawah Ini
+     Biar Gak Error
+*/
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.typing-indicator span {
+    width: 6px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    animation: wave 1.5s infinite ease-in-out;
+}
+
+.typing-indicator span:nth-child(1) { animation-delay: 0s; }
+.typing-indicator span:nth-child(2) { animation-delay: 0.2s; }
+.typing-indicator span:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes wave {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-5px); }
+}
