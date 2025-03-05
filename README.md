@@ -1,3 +1,12 @@
+### Kalo Mau Ngambil Kodenya, Jangan Lupa Ngasih Star(Bintang).
+### Minimal Bayar Pake Bintang Lah....
+
+<br>
+<br>
+<br>
+<br>
+
+
 <h1 align="center">
   🍋 Lemon AI 🍋
 </h1>
