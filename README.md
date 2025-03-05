@@ -1,5 +1,5 @@
-### Kalo Mau Ngambil Kodenya, Jangan Lupa Ngasih Star(Bintang).
-### Minimal Bayar Pake Bintang Lah....
+### Kalo Mau Ngambil Kodenya, Jangan Lupa Follow.
+### Atau Minimal Bayar Pake Star Lah 🌟....
 
 <br>
 <br>
